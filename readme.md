@@ -9,6 +9,7 @@ expose Prometheus metrics.
 # change v1
 # change v2
 # change test
+# change 1
 
 This quickstart exposes the following endpoints important for Kubernetes deployments:
 - `/actuator/health` - Spring Boot endpoint indicating health. Used by Kubernetes as readiness probe.
