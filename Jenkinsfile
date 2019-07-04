@@ -9,11 +9,6 @@ pipeline {
     DOCKER_REGISTRY_ORG = 'yangkang'
   }
   stages {
-    stage('CI Build and push snapshot') {
-      when {
-        branch 'PR-*'
-      }
-    }
     stage('Build Release') {
       when {
         branch 'master'
